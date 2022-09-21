@@ -5,7 +5,7 @@ services:
     image: "mcr.microsoft.com/mssql/server:2017-latest"
     environment:
       - ACCEPT_EULA=Y
-      - SA_PASSWORD=Password12!
+      - SA_PASSWORD=Password123!
     ports:
       - "1433:1433"
   mytest:
